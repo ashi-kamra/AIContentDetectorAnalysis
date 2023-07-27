@@ -3,3 +3,29 @@ body {
     font-family: 'Roboto Mono', monospace;
     font-style: bold;
 }
+
+.title {
+    text-align: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+#the-AI{
+    text-align: center;
+    justify-content: center;
+    padding: 1em;
+    margin: auto;
+    max-width: 70%;
+}
+
+.the-AI-title{
+    font-weight: 500;
+}
+
+#the-problem {
+    text-align: center;
+    justify-content: center;
+    padding: 1em;
+    margin: auto;
+    max-width: 70%;
+}
