@@ -55,12 +55,18 @@ body {
 
 .the-AI-title{
     font-weight: 500;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 #the-problem {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10;
     text-align: center;
     justify-content: center;
-    padding: 1em;
+    padding: 10em;
     margin: auto;
     max-width: 70%;
 }
