@@ -44,7 +44,6 @@ body {
 /*-------------------*/
 
 
-
 #the-AI{
     text-align: center;
     justify-content: center;
@@ -52,17 +51,29 @@ body {
     margin: auto;
     max-width: 70%;
     max-height: 10%;
+    height: 100vh;  /* Add a height to the parent element */
+
 }
 
 .the-AI-title{
     font-weight: 500;
     position: sticky;
-    top: 10;
+    top: 10em;
+}
+
+.the-AI-text1{
+    position: sticky;
+    top: 30em;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50em;
+    margin-bottom: 50em;
+    max-width: 100%;
 }
 
 #the-problem {
     position: sticky;
-    top: 10;
+    top: 10em;
     text-align: center;
     justify-content: center;
     padding: 10em;
