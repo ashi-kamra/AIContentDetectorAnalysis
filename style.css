@@ -41,42 +41,35 @@ body {
     margin-right: 15%;
     margin-bottom: 30%;
 }
-/*-------------------*/
 
-
+/*---------THE AI SECTION----------*/
 #the-AI{
     text-align: center;
     justify-content: center;
-    padding: 1em;
+    padding: 5em;
     margin: auto;
-    max-width: 70%;
-    max-height: 10%;
-    height: 100vh;  /* Add a height to the parent element */
-
+    max-width: 70%;  /* Add a height to the parent element */
 }
 
 .the-AI-title{
     font-weight: 500;
-    position: sticky;
-    top: 10em;
+    margin-bottom: 30em; /* trying to add distance between the title and the text */
+    /* would also like to add position: sticky, but that didn't work either.*/
 }
 
 .the-AI-text1{
-    position: sticky;
-    top: 30em;
-    text-align: center;
-    justify-content: center;
-    margin-top: 50em;
-    margin-bottom: 50em;
+    padding-top: 20em; /*but its not working... no changes at all :(*/
+    padding-bottom: 20em;
     max-width: 100%;
 }
 
+/*----------------------------------*/
+
 #the-problem {
-    position: sticky;
-    top: 10em;
     text-align: center;
     justify-content: center;
     padding: 10em;
     margin: auto;
     max-width: 70%;
 }
+
