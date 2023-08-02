@@ -73,3 +73,11 @@ body {
     max-width: 70%;
 }
 
+#the-background {
+    text-align: center;
+    justify-content: center;
+    padding: 10em;
+    margin: auto;
+    max-width: 70%;
+}
+

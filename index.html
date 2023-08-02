@@ -54,7 +54,7 @@
 
     
     <section id="the-problem">
-        <h2> The Problem </h2>
+        <div id="the-problem-title"> <h2><mark style="background-color: black; color: white;"> The Problem</mark></h2> </div>
         <p> Unfortunately, there are increasing reports of false positives when these detectors flag human writing as AI - like this high school senior who was accused of likely generating her essay with chatGPT 
             by the AI writing detector from Turnitin. With so many detectors to choose from, and little evaluation or credible research conducted on these tools, teachers are left with a daunting amount of options 
             to choose from, and students are left vulnerable to a skewed system of judgment if educators choose detectors that arent accurate. </p>
@@ -70,8 +70,36 @@
         
     </section>
 
+    <section id="the-background">
+        <div id="the-background-title"> <h2><mark style="background-color: black; color: white;"> The Background</mark></h2> </div>
+        <p>
+            A.I Content Detectors have emerged recently as a method of defense against students using chatGPT in school assignments. Reports from the Washington Post, and other credible sources have found these detectors
+            to be significantly unreliable, misidentified portions of selected text. In addition to reporting false positives, these detectors have also been found b to be biased against non-native english speakers, flagging their writing as A.I more often than native speakers (Liang et al).
+        </p>
+            
+        <p>
+            Most detectors can be classified into three categories:
+        </p>
+
+        <ol>
+            <li><strong>Watermarking algorithms</strong></li>
+            <p> Watermarking algorithms take advantage of the modifications specifically in A.I generated text, in which random subsets of vocabulary are “watermarked”. These watermarks are undetectable to humans, and can be found using specific  algorithms. There are no commercial watermarking 
+                algorithms on the market but researchers like Kirchbauer et al have developed some to use for their work. </p>
+            
+            <li><strong>Statistical outlier detection methods</strong></li>
+            <p> Statistical outlier detection algorithms aim to distinguish between human written and AI generated based on outliers in specific qualities like burstiness (consistency in style and tone through the text) or perplexity (having an AI model to generate the next word and compare that 
+                generated to the next word in the text). As such, they use A.I algorithms themselves. Three of the four detectors I will be testing use methods similar to this.</p>
+            
+            <li><strong>Classifiers that discriminate AI generated from human written.</strong></li>
+            <p> Classifiers are language models themselves that are trained on large datasets of both AI generated and human-written text to be able to distinguish between the two. The only available text classifier, OpenAI Text Classifier, I intended to use was taken down as of July 20th, 2023, 
+                due to “its low rate of accuracy.”</p>
+        </ol>
+
+    </section>
+
     <section id="research">
-        <h2> Research Findings </h2>
+        <h2> The Research </h2>
+        <p> I used excerpts from the following sources: </p>
     </section>
     
     <section id="so what">
