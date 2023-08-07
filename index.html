@@ -79,30 +79,75 @@
         
     </section>
 
-    <section id="the-background">
+    <section class="the-background">
         <div id="the-background-title"> <h2><mark style="background-color: black; color: white;"> The Background</mark></h2> </div>
-        <p>
-            A.I Content Detectors have emerged recently as a method of defense against students using chatGPT in school assignments. Reports from the Washington Post, and other credible sources have found these detectors
-            to be significantly unreliable, misidentified portions of selected text. In addition to reporting false positives, these detectors have also been found b to be biased against non-native english speakers, flagging their writing as A.I more often than native speakers (Liang et al).
-        </p>
-            
-        <p>
-            Most detectors can be classified into three categories:
-        </p>
+        <div id="the-background-text1">
+            <p>
+                A.I Content Detectors have emerged recently as a method of defense against students using chatGPT in school assignments. Reports from the Washington Post, and other credible sources have found these detectors
+                to be significantly unreliable, misidentified portions of selected text. In addition to reporting false positives, these detectors have also been found b to be biased against non-native english speakers, flagging their writing as A.I more often than native speakers (Liang et al).
+            </p>
+            <p>
+                Most detectors can be classified into three categories:
+            </p>
+         
+        </div> 
+        
+        <div id="the-background-text2">
+            <ol>
+                <li><strong>Watermarking algorithms</strong></li>
+                <p> Watermarking algorithms take advantage of the modifications specifically in A.I generated text, in which random subsets of vocabulary are “watermarked”. These watermarks are undetectable to humans, and can be found using specific  algorithms. There are no commercial watermarking 
+                    algorithms on the market but researchers like Kirchbauer et al have developed some to use for their work. </p>
+                
+                <li><strong>Statistical outlier detection methods</strong></li>
+                <p> Statistical outlier detection algorithms aim to distinguish between human written and AI generated based on outliers in specific qualities like burstiness (consistency in style and tone through the text) or perplexity (having an AI model to generate the next word and compare that 
+                    generated to the next word in the text). As such, they use A.I algorithms themselves. Three of the four detectors I will be testing use methods similar to this.</p>
+                
+                <li><strong>Classifiers that discriminate AI generated from human written.</strong></li>
+                <p> Classifiers are language models themselves that are trained on large datasets of both AI generated and human-written text to be able to distinguish between the two. The only available text classifier, OpenAI Text Classifier, I intended to use was taken down as of July 20th, 2023, 
+                    due to “its low rate of accuracy.”</p>
+            </ol>
+        </div>
 
-        <ol>
-            <li><strong>Watermarking algorithms</strong></li>
-            <p> Watermarking algorithms take advantage of the modifications specifically in A.I generated text, in which random subsets of vocabulary are “watermarked”. These watermarks are undetectable to humans, and can be found using specific  algorithms. There are no commercial watermarking 
-                algorithms on the market but researchers like Kirchbauer et al have developed some to use for their work. </p>
-            
-            <li><strong>Statistical outlier detection methods</strong></li>
-            <p> Statistical outlier detection algorithms aim to distinguish between human written and AI generated based on outliers in specific qualities like burstiness (consistency in style and tone through the text) or perplexity (having an AI model to generate the next word and compare that 
-                generated to the next word in the text). As such, they use A.I algorithms themselves. Three of the four detectors I will be testing use methods similar to this.</p>
-            
-            <li><strong>Classifiers that discriminate AI generated from human written.</strong></li>
-            <p> Classifiers are language models themselves that are trained on large datasets of both AI generated and human-written text to be able to distinguish between the two. The only available text classifier, OpenAI Text Classifier, I intended to use was taken down as of July 20th, 2023, 
-                due to “its low rate of accuracy.”</p>
-        </ol>
+        <div id="the-background-text3">
+            <p>
+                The three A.I content detectors I will be evaluating are: GPTZero, Winston A.I, and Originality.ai. These three detectors were chosen based on various criteria. Either they are easily accessible on the internet by teachers, they have been cited as being used often by educators, or they have 
+                been used in other studies testing the reliability of A.I. 
+            </p>
+        </div>
+
+        <div id="the-background-text4">
+            <p> Below is a comparison table of various information like payment plans, limitations, and false positive rates.</p>
+        </div>
+       
+
+        <div id="the-background-table">
+            <table>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th><strong>GPTZero</strong></th>
+                    <th><strong>Winston A.I</strong></th>
+                    <th><strong>Originality.ai</strong></th>
+                </tr>
+                <tr>
+                    <th>Pricing Plans</th>
+                    <td>Free Plan, Educator Plan: $9.99/month, Pro Plan: $19.99/month</td>
+                    <td>Essential Plan: $12/month, Growth Plan: $18/month </td>
+                    <td>Pay-as-you-go: $30 flat rate, Base Subscription: $14.95/month</td>
+                </tr>
+                <tr>
+                    <th>Self-Reported Accuracy Rates</th>
+                    <td>At threshold of 0.65 - 85% true positive rate, and 99% true negative rate.</td>
+                    <td>Unclear. 99% accuracy on front page, 94% on FAQ pages</td>
+                    <td>~94% accuracy on website. 1.5-2.5% false positive rate. </td>
+                </tr>
+                <tr>
+                    <th>Limitations</th>
+                    <td>Works better on larger text samples. Was trained with a focus on English prose.</td>
+                    <td>Works better on larger text samples. Up to 2,000 word scan with the free plan. </td>
+                    <td>Works better on larger text samples. Strange formatting of text can skew results. </td>
+                </tr>
+            </table>
+        </div>
 
     </section>
 

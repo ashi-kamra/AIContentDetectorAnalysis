@@ -129,11 +129,69 @@ body {
 
 /*----------------------------------*/
 
-#the-background {
+.the-background {
     text-align: center;
     justify-content: center;
-    padding: 10em;
+    padding-top: 50em;
     margin: auto;
     max-width: 70%;
+    height: 500vh;
 }
+
+#the-background-title {
+    position: sticky;
+    top: 5em;
+    max-width: 100%;
+    margin-bottom: 40em;
+}
+
+#the-background-text1 {
+    position: sticky;
+    top: 10em;
+    max-width: 100%;
+    margin-bottom: 40em;
+    height: 150vh;
+}
+
+#the-background-text2{
+    position: sticky;
+    top: 10em;
+    max-width: 100%;
+    margin-bottom: 20em;
+}
+
+#the-background-text3{
+    position: sticky;
+    top: 38em;
+    max-width: 100%;
+    margin-bottom: 10em;
+}
+
+#the-background-text4{
+    position: sticky;
+    top: 45em;
+    max-width: 100%;
+    margin-bottom: 10em;
+}
+
+
+#the-background-table{
+    margin-top: 20em;
+    border: 1px solid;
+    margin: 10px;
+    
+}
+
+
+
+th, tr, td{
+    padding: 10px;
+    border: 1px solid;
+}
+
+th {
+    background-color: #000000;
+    color: white;
+}
+
 
