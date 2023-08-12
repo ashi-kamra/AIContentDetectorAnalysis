@@ -31,8 +31,7 @@
         </div>
         
         <div id="the-AI-text2">
-            <p>While the use of A.I in American educational institutions is no new feat,` the improvement of Natural Language Processors like ChatGPT to produce output as similar to human writing as 
-                possible has created a rush of students using it to aid in completing their assignments. Dozens of companies have similarly rushed to capitalize on the new demand, creating technologies 
+            <p>While the use of A.I in American educational institutions is no new feat, dozens of companies have similarly rushed to capitalize on the new demand, creating technologies 
                 to generate resumes, develop study guides, create powerpoint presentations, and more. 
             </p>
         </div>
@@ -83,7 +82,7 @@
         <div id="the-background-text1">
             <p>
                 A.I Content Detectors have emerged recently as a method of defense against students using chatGPT in school assignments. Reports from the Washington Post, and other credible sources have found these detectors
-                to be significantly unreliable, misidentified portions of selected text. In addition to reporting false positives, these detectors have also been found b to be biased against non-native english speakers, flagging their writing as A.I more often than native speakers (Liang et al).
+                to be significantly unreliable, misidentifing portions of selected text. In addition to reporting false positives, these detectors have also been found to be biased against non-native english speakers, flagging their writing as A.I more often than native speakers (Liang et al).
             </p>
             <p>
                 Most detectors can be classified into three categories:
@@ -93,15 +92,15 @@
         
         <div id="the-background-text2">
             <ol>
-                <li><strong>Watermarking algorithms</strong></li>
+                <div id= "list-item1"><li><strong>Watermarking algorithms</strong></li></div>
                 <p> Watermarking algorithms take advantage of the modifications specifically in A.I generated text, in which random subsets of vocabulary are “watermarked”. These watermarks are undetectable to humans, and can be found using specific  algorithms. There are no commercial watermarking 
                     algorithms on the market but researchers like Kirchbauer et al have developed some to use for their work. </p>
                 
-                <li><strong>Statistical outlier detection methods</strong></li>
+                <div id= "list-item2"><li><strong>Statistical outlier detection methods</strong></li></div>
                 <p> Statistical outlier detection algorithms aim to distinguish between human written and AI generated based on outliers in specific qualities like burstiness (consistency in style and tone through the text) or perplexity (having an AI model to generate the next word and compare that 
                     generated to the next word in the text). As such, they use A.I algorithms themselves. Three of the four detectors I will be testing use methods similar to this.</p>
                 
-                <li><strong>Classifiers that discriminate AI generated from human written.</strong></li>
+                <div id= "list-item3"><li><strong>Classifiers that discriminate AI generated from human written.</strong></li></div>
                 <p> Classifiers are language models themselves that are trained on large datasets of both AI generated and human-written text to be able to distinguish between the two. The only available text classifier, OpenAI Text Classifier, I intended to use was taken down as of July 20th, 2023, 
                     due to “its low rate of accuracy.”</p>
             </ol>
@@ -120,31 +119,34 @@
 
     <section class="the-research">
         <div id="the-research-title"> <h2><mark style="background-color: black; color: white;"> The Research: Stage 1</mark></h2> </div>
-        <div id="the-research-paragraph1">
-            <p> <a href="https://gptzero.me/">GPTZero</a> is a detector developed by Princeton University student, Edward Tian. It is a statistical 
-                outlier detector that returns a document-level score, “completely_generated_prob” that specifies the 
-                probability the entire document was AI-generated. More information about the specifics of its technology 
-                can be found at <a href="https://gptzero.me/technology">their webpage</a>. GPTZero recommend multiple ways to reduce the risk of misuse, including: “set 
-                expectations for your students that you will be checking the work through an AI detector like GPTZero, to deter misuse of AI.”
-            </p>
+        <div id="the-paragraphs">
+            <div id="the-research-paragraph1">
+                <p> <a href="https://gptzero.me/">GPTZero</a> is a detector developed by Princeton University student, Edward Tian. It is a statistical 
+                    outlier detector that returns a document-level score, “completely_generated_prob” that specifies the 
+                    probability the entire document was AI-generated. More information about the specifics of its technology 
+                    can be found at <a href="https://gptzero.me/technology">their webpage</a>. GPTZero recommend multiple ways to reduce the risk of misuse, including: “set 
+                    expectations for your students that you will be checking the work through an AI detector like GPTZero, to deter misuse of AI.”
+                </p>
+            </div>
+            <div id="the-research-paragraph2">
+                <p>
+                    <a href=" https://gowinston.ai/">Winston A.I</a> is a detector developed by a Canadian company with the intention of detecting content from multiple 
+                    LLMs like Claude and GPT-4. It seems to be a statistical outlier detector, but the details published by Winston 
+                    AI are vague and unclear. Gives you a percentage score of odds that the text is generated by human or A.I In regards
+                    to AI misuse, they urge teachers that “while technology can be helpful in identifying potential issues, building trust 
+                    and rapport with your students can encourage them to be honest and genuine in their academic endeavors.”
+                </p> 
+            </div>   
+            <div id="the-research-paragraph3">     
+                <p>
+                    <a href="https://originality.ai/">Originality.ai</a> is a detector developed by a company of the same name, claiming itself to be the “Most Accurate AI Content 
+                    Detector.” Using software from Google, it has developed technology combining the classifier method and statistical outlier
+                    detector. It returns a percentage of how much AI is written and how much is human generated. ... Theyve said anything 
+                    explicitly about the role of AI detector in education.
+                </p>
+            </div>
         </div>
-        <div id="the-research-paragraph2">
-            <p>
-                <a href=" https://gowinston.ai/">Winston A.I</a> is a detector developed by a Canadian company with the intention of detecting content from multiple 
-                LLMs like Claude and GPT-4. It seems to be a statistical outlier detector, but the details published by Winston 
-                AI are vague and unclear. Gives you a percentage score of odds that the text is generated by human or A.I In regards
-                to AI misuse, they urge teachers that “while technology can be helpful in identifying potential issues, building trust 
-                and rapport with your students can encourage them to be honest and genuine in their academic endeavors.”
-            </p> 
-        </div>   
-        <div id="the-research-paragraph3">     
-            <p>
-                <a href="https://originality.ai/">Originality.ai</a> is a detector developed by a company of the same name, claiming itself to be the “Most Accurate AI Content 
-                Detector.” Using software from Google, it has developed technology combining the classifier method and statistical outlier
-                detector. It returns a percentage of how much AI is written and how much is human generated. ... Theyve said anything 
-                explicitly about the role of AI detector in education.
-            </p>
-        </div>
+        
 
         
         <div id="the-research-text1">

@@ -75,14 +75,14 @@ body {
 
 #the-AI-text3{
     position: sticky;
-    top: 28em;
+    top: 26em;
     max-width: 100%;
     margin-bottom: 10em;
 }
 
 #the-AI-text4{
     position: sticky;
-    top: 35.5em;
+    top: 34em;
     max-width: 100%;
     margin-bottom: 10em;
 }
@@ -154,10 +154,23 @@ body {
 }
 
 #the-background-text2{
+    text-align: left;
     position: sticky;
     top: 10em;
     max-width: 100%;
     margin-bottom: 20em;
+}
+
+#list-item1{
+    text-align: left;
+}
+
+#list-item2{
+    text-align: left;
+}
+
+#list-item3{
+    text-align: left;
 }
 
 #the-background-text3{
@@ -168,58 +181,56 @@ body {
 }
 
 
-
 /*---------------THE RESEARCH-------------------*/
 .the-research{
     text-align: center;
     justify-content: center;
     padding-top: 40em;
     margin: auto;
-    max-width: 80%;
-    height: 500vh;
+    max-width: 90%;
+    height: 400vh;
 }
 
 #the-research-title {
     position: sticky;
     top: 5em;
     max-width: 100%;
+    margin-bottom: 40em;
+}
+
+#the-paragraphs{
+    display: flex;
+    position: sticky;
+    top: 10em;
     margin-bottom: 10em;
+    height: 50em;
 }
 
 #the-research-paragraph1{
-    position: sticky;
-    top: 10em;
-    max-width: 70%;
-    margin-bottom: 10em;
+    max-width: 33%;
 }
 
 #the-research-paragraph2{
-    position: sticky;
-    top: 10em;
-    max-width: 70%;
-    margin-bottom: 10em;
+    max-width: 35%;
 }
 
 #the-research-paragraph3{
-    position: sticky;
-    top: 10em;
-    max-width: 70%;
-    margin-bottom: 10em;
+    max-width: 60%;
 }
 
 #the-research-text1 {
     position: sticky;
-    top: 10em;
+    top: 35em;
     max-width: 100%;
-    margin-bottom: 10em;
-    height: 40em;
+    margin-bottom: 40em;
+    height: 15em;
 }
 
 #the-research-table{
     position: sticky;
     top: 15em;
     margin: 10px; 
-    height: 40em;
+    height: 20em;
 }
 
 th, tr, td{
