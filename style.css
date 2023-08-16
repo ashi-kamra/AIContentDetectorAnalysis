@@ -182,13 +182,13 @@ body {
 
 
 /*---------------THE RESEARCH-------------------*/
-.the-research{
+.the-research-stage1{
     text-align: center;
     justify-content: center;
     padding-top: 40em;
     margin: auto;
     max-width: 90%;
-    height: 400vh;
+    height: 570vh;
 }
 
 #the-research-title {
@@ -202,8 +202,8 @@ body {
     display: flex;
     position: sticky;
     top: 10em;
-    margin-bottom: 10em;
-    height: 50em;
+    margin-bottom: 5em;
+    height: 100em;
 }
 
 #the-research-paragraph1{
@@ -223,7 +223,7 @@ body {
     top: 35em;
     max-width: 100%;
     margin-bottom: 40em;
-    height: 15em;
+    height: 30em;
 }
 
 #the-research-table{
@@ -231,6 +231,7 @@ body {
     top: 15em;
     margin: 10px; 
     height: 20em;
+    margin-bottom:10em;
 }
 
 th, tr, td{
@@ -243,5 +244,39 @@ th {
     color: white;
 }
 
+.the-research-stage2{
+    text-align: center;
+    justify-content: center;
+    padding-top: 45em;
+    margin: auto;
+    max-width: 70%;
+    height: 500vh;
+}
 
+#the-research-title2{
+    position: sticky;
+    top: 5em;
+    max-width: 100%;
+    margin-bottom: 50em;
+}
 
+#the-research2-text1{
+    position: sticky;
+    top: 10em;
+    max-width: 100%;
+    margin-bottom: 40em;
+}
+
+#the-research2-text2{
+    position: sticky;
+    top: 22em;
+    max-width: 100%;
+    margin-bottom: 40em;
+}
+
+#the-research2-text3{
+    position: sticky;
+    top: 32em;
+    max-width: 100%;
+    margin-bottom: 40em;
+}
