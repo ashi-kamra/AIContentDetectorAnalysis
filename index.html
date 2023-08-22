@@ -208,8 +208,8 @@
     
     </section>
 
-    <section class="the-findings">
-        <div id="the-findings-title"> <h2><mark style="background-color: black; color: white;"> The Findings</mark></h2> </div>
+    <section class="the-findings1">
+        <div id="the-findings-title"> <h2><mark style="background-color: black; color: white;"> The Findings - GPTZero</mark></h2> </div>
         <div id="the-findings-text1">
             <p>After putting the 17 responses into each detectors, the results were as follow:</p>
         </div>
@@ -229,21 +229,55 @@
             </p>
                
         </div>
-        
+    </section>
+
+    <section class="the-findings2">
+        <div id="the-findings-title2"> <h2><mark style="background-color: black; color: white;"> The Findings - Winston A.I</mark></h2> </div>
+        <div id="the-findings-text3">
+            <p>Note that these graphs were made in Google Colab using Matplotlib.</p>
+        </div>
+
         <div id="data-viz-2">
             <img src="img/data-viz02.png" alt="Winston A.I Visualization" width="500" height="500">
         </div>
 
-        <div id="the-finding-text3">
+        <div id="the-finding-text4">
+            <p>
+                Now, lets look at Winston A.I:
+            </p>
             <p>
                 For Winston A.I you can see similar results, in each categories most of the results group towards an accurate percentage. But, having 2/7 of the classifications return false positives 
                 for the human samples is dangerous to say the least. This number of false positives increases in the mixed-source samples, with 3/7 being classified as 75-100% human. The AI samples seem 
                 to be classified the most accurately of the 3 categories. 
             </p>
         </div>
-      
-    
     </section>
+    
+    <section class="the-findings3">
+        <div id="the-findings-title3"> <h2><mark style="background-color: black; color: white;"> The Findings - Originality A.I</mark></h2> </div>
+        
+        <div id="data-viz-3">
+            <img src="img/data-viz-03.png" alt="Originality.ai Visualization" width="500" height="500">
+        </div>
+
+        <div id="the-finding-text5">
+            <p>
+                Finally, lets look at Originality.ai:
+            </p>
+            <p>
+                Originality.ai was the trickiest of the 3 to interpret, largely because it outputed 2-3 data points for each sample of writing, as opposed to 
+                one like the others. The first percentage is a general confidence percentage, the number in parentheses are the confidence percentage for sections of the texts it highlights. 
+            </p>
+            <p>
+                The percentages were varied and there was no clean, even way to divide them. As such, in order to make the results more understandable, I developed qualitative “buckets” to group 
+                the different results into, using the scale from that GPTZero used.
+            </p>
+            <p>
+                For example: I determined that if Originality.ai returned 100% AI (100% chance AI generated), it would be likely entirely AI written.
+            </p>
+        </div>
+    </section>
+
     
     
     <section id="so what">
