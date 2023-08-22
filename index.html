@@ -187,20 +187,62 @@
         <div id="the-research-title2"> <h2><mark style="background-color: black; color: white;"> The Research: Stage 2</mark></h2> </div>
 
         <div id="the-research2-text1">
-            <p>After identifying which detectors to test and conducting an extensive literature review, I began my primary research by reaching out to potential 
+            <p>After identifying which detectors to test, which AI bots to use (ChatGPT, Bard, and Claude) and conducting an extensive literature review, I began my primary research by reaching out to potential 
                 research participants and developing the writing prompt to provide them. These 7 participants were all native English speakers, aged 18-25 and attending 
                 or recently graduated from higher education institutes. Their responses were additionally limited to being english prose, about a non-personal/sensitive 
                 subject, and being ~200 words long. These criteria were intended to limit any A.I or personal bias</p>
         </div>
 
         <div id="the-research2-text2">
-            <p>They each responded to this prompt regarding a <a href=https://www.nytimes.com/2021/02/05/world/asia/china-masculinity-schoolboys.html> New York Times article about P.E Classes in China:</a> </p>
+            <p>They each responded to this prompt regarding a <a href=https://www.nytimes.com/2021/02/05/world/asia/china-masculinity-schoolboys.html> NYT article about P.E Classes in China:</a> </p>
             <p> <mark style="background-color: white; color: black;">[<strong>Write a 200-word paragraph summarizing and analyzing this article about the Chinese education ministrys proposition to redesign school P.E classes. What was the motivation behind this proposal? What was the public response? Are any arguments made or presented by the article?</strong>] </mark></p>
         </div>
 
         <div id="the-research2-text3">
             <p> With each human response I got, I generated 7 mixed-source writing samples, by taking the first 100 words from each response and feeding it to 1 of 3 LLMs to generate the last 100 words using a prompt like this: </p>
+            <p> <mark style="background-color: white; color: black;"> <strong> Using this paragraph - [first 100 words from human sample] - make a 200 word response to summarizing and analyzing this article about the Chinese education ministry’s proposition to redesign school P.E classes. What was the motivation behind this proposal? What was the public response? Are any arguments made or presented by the article? Use the paragraph 
+                excerpt above word-for-word as the first half of your response. </strong> </mark>            
+            </p>
         </div>
+
+    
+    </section>
+
+    <section class="the-findings">
+        <div id="the-findings-title"> <h2><mark style="background-color: black; color: white;"> The Findings</mark></h2> </div>
+        <div id="the-findings-text1">
+            <p>After putting the 17 responses into each detectors, the results were as follow:</p>
+        </div>
+
+        <div id="data-viz-1">
+            <img src="img/data-viz01.png" alt="GPTZero Visualization" width="500" height="500">
+        </div>
+
+        <div id="the-finding-text2">
+            <p> 
+                Note that each detector utilized different scales to report their findings, with some using hard numbers and others using qualitative descriptions.  Let’s first look at GPTZero:
+            </p>
+            <p>
+                The results are scattered. For the human writing samples, there are no false positives, but the number “unclears” was 1 less than than the number of human classifications. The 
+                mixed-source samples have more misclassifications. With 50% of the text being human and 50% AI, the most accurate classification would be “may include parts written by AI.” However 
+                only half of the classifications were like that. For the A.I samples, once again, the general trend of the classifications leans towards A.I written, but uncertainty remains.
+            </p>
+               
+        </div>
+        
+        <div id="data-viz-2">
+            <img src="img/data-viz02.png" alt="Winston A.I Visualization" width="500" height="500">
+        </div>
+
+        <div id="the-finding-text3">
+            <p>
+                For Winston A.I you can see similar results, in each categories most of the results group towards an accurate percentage. But, having 2/7 of the classifications return false positives 
+                for the human samples is dangerous to say the least. This number of false positives increases in the mixed-source samples, with 3/7 being classified as 75-100% human. The AI samples seem 
+                to be classified the most accurately of the 3 categories. 
+            </p>
+        </div>
+      
+    
     </section>
     
     

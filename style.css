@@ -211,11 +211,11 @@ body {
 }
 
 #the-research-paragraph2{
-    max-width: 35%;
+    max-width: 34%;
 }
 
 #the-research-paragraph3{
-    max-width: 60%;
+    max-width: 33%;
 }
 
 #the-research-text1 {
@@ -244,6 +244,8 @@ th {
     color: white;
 }
 
+
+/*---------------THE RESEARCH STAGE 2-------------------*/
 .the-research-stage2{
     text-align: center;
     justify-content: center;
@@ -279,4 +281,66 @@ th {
     top: 32em;
     max-width: 100%;
     margin-bottom: 40em;
+}
+
+/*---------------THE FINDINGS-------------------*/
+.the-findings{
+    text-align: center;
+    justify-content: center;
+    padding-top: 40em;
+    margin: auto;
+    max-width: 80%;
+    height: 600vh;
+
+}
+
+#the-findings-title{
+    position: sticky;
+    top: 5em;
+    max-width: 100%;
+    margin-bottom: 50em;
+}
+
+#the-findings-text1{
+    position: sticky;
+    top: 10em;
+    max-width: 100%;
+    margin-bottom: 40em;
+}
+
+#data-viz-1{
+    float: left;
+    left: 10px;
+    position: sticky;
+    top: 11em;
+    margin-bottom: 40em;
+    max-width: 100%;
+    padding: 3em;
+}
+
+#the-finding-text2{
+    position: sticky;
+    top: 18em;
+    max-width: 100%;
+    margin-bottom: 40em;
+    padding-left: 10em;
+}
+
+#data-viz-2{
+    float: left;
+    left: 10px;
+    position: sticky;
+    top: 11em;
+    margin-bottom: 40em;
+    height: 50em;
+    max-width: 100%;
+    padding: 3em;
+}
+
+#the-finding-text3{
+    position: sticky;
+    top: 20em;
+    max-width: 100%;
+    margin-bottom: 40em;
+    padding-left: 10em;
 }
