@@ -2,6 +2,7 @@ body {
     font-family: 'Cabin', sans-serif;
     font-family: 'Roboto Mono', monospace;
     font-style: normal;
+    font-size: 16.5px;
     background-color: #03DB25;
 }
 
@@ -134,7 +135,7 @@ body {
     justify-content: center;
     padding-top: 50em;
     margin: auto;
-    max-width: 70%;
+    max-width: 75%;
     height: 500vh;
 }
 
@@ -147,7 +148,7 @@ body {
 
 #the-background-text1 {
     position: sticky;
-    top: 10em;
+    top: 8em;
     max-width: 100%;
     margin-bottom: 40em;
     height: 150vh;
@@ -413,7 +414,7 @@ th {
     justify-content: center;
     padding: 5em;
     margin: auto;
-    max-width: 70%;  /* Add a height to the parent element */
+    max-width: 65%;  /* Add a height to the parent element */
     height: 500vh;
 }
 
@@ -445,3 +446,55 @@ th {
     margin-bottom:40em;
 }
 
+/*---------------THE CONCLUSION-------------------*/
+
+.the-purpose{
+    text-align: center;
+    justify-content: center;
+    padding: 5em;
+    margin: auto;
+    max-width: 65%;  
+    height: 500vh;
+}
+
+#the-purpose-title{
+    position: sticky;
+    top: 5em;
+    max-width: 100%;
+    margin-bottom: 40em;
+}
+
+#the-purpose-text1{
+    position: sticky;
+    top: 10em;
+    max-width: 100%;
+    margin-bottom: 40em;
+}
+
+#the-purpose-text2{
+    position: sticky;
+    top: 20em;
+    max-width: 100%;
+    margin-bottom: 40em; 
+}
+
+#the-purpose-text3{
+    position: sticky;
+    top: 35em;
+    max-width: 100%;
+    margin-bottom: 40em;
+}
+
+/*---------------THE CONCLUSION-------------------*/
+
+#thank-you{
+    text-align: center;
+    margin-bottom: 20em;
+}
+
+.button{
+    background-color: #03DB25; 
+    color: black; 
+    border: 2px solid;
+    padding: 10px 32px;
+}
