@@ -2,7 +2,7 @@ body {
     font-family: 'Cabin', sans-serif;
     font-family: 'Roboto Mono', monospace;
     font-style: normal;
-    font-size: 16.5px;
+    font-size: 16.75px;
     background-color: #03DB25;
 }
 
@@ -265,21 +265,21 @@ th {
 
 #the-research2-text1{
     position: sticky;
-    top: 10em;
+    top: 9em;
     max-width: 100%;
     margin-bottom: 40em;
 }
 
 #the-research2-text2{
     position: sticky;
-    top: 22em;
+    top: 21em;
     max-width: 100%;
     margin-bottom: 40em;
 }
 
 #the-research2-text3{
     position: sticky;
-    top: 32em;
+    top: 30em;
     max-width: 100%;
     margin-bottom: 40em;
 }
@@ -304,7 +304,7 @@ th {
 
 #the-findings-text1{
     position: sticky;
-    top: 10em;
+    top: 9em;
     max-width: 100%;
     margin-bottom: 40em;
     
@@ -314,15 +314,16 @@ th {
     float: left;
     left: 10px;
     position: sticky;
-    top: 11em;
+    top: 10em;
     margin-bottom: 30em;
     max-width: 100%;
     padding: 3em;
 }
 
 #the-finding-text2{
+    text-align: left;
     position: sticky;
-    top: 18em;
+    top: 13em;
     max-width: 100%;
     margin-bottom: 30em;
     padding-left: 10em;
@@ -349,7 +350,7 @@ th {
 
 #the-findings-text3{
     position: sticky;
-    top: 10em;
+    top: 9em;
     max-width: 100%;
     margin-bottom: 40em;
 
@@ -359,15 +360,16 @@ th {
     float: left;
     left: 10px;
     position: sticky;
-    top: 11em;
+    top: 10em;
     margin-bottom: 40em;
     max-width: 100%;
     padding: 3em;
 }
 
 #the-finding-text4{
+    text-align: left;
     position: sticky;
-    top: 20em;
+    top: 13em;
     max-width: 100%;
     margin-bottom: 40em;
     padding-left: 10em;
@@ -380,7 +382,7 @@ th {
     justify-content: center;
     padding-top: 40em;
     margin: auto;
-    max-width: 80%;
+    max-width: 85%;
     height: 500vh;
 }
 
@@ -402,6 +404,7 @@ th {
 }
 
 #the-finding-text5{
+    text-align: left;
     position: sticky;
     top: 10em;
     max-width: 100%;
@@ -441,7 +444,7 @@ th {
 
 #the-conclusion-text3{
     position: sticky;
-    top: 30em;
+    top: 31em;
     max-width:100em;
     margin-bottom:40em;
 }
