@@ -189,7 +189,7 @@ body {
     padding-top: 40em;
     margin: auto;
     max-width: 90%;
-    height: 570vh;
+    height: 500vh;
 }
 
 #the-research-title {
@@ -202,8 +202,8 @@ body {
 #the-paragraphs{
     display: flex;
     position: sticky;
-    top: 10em;
-    margin-bottom: 5em;
+    top: 12em;
+    margin-bottom: 20em;
     height: 100em;
 }
 
@@ -219,13 +219,7 @@ body {
     max-width: 33%;
 }
 
-#the-research-text1 {
-    position: sticky;
-    top: 35em;
-    max-width: 100%;
-    margin-bottom: 40em;
-    height: 30em;
-}
+
 
 #the-research-table{
     position: sticky;
@@ -485,12 +479,13 @@ th {
     position: sticky;
     top: 35em;
     max-width: 100%;
-    margin-bottom: 40em;
+    margin-bottom: 50em;
 }
 
 /*---------------THE CONCLUSION-------------------*/
 
 #thank-you{
+    margin-top: 20em;
     text-align: center;
     margin-bottom: 20em;
 }
